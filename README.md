@@ -18,7 +18,7 @@ Para el desarrollo del proyecto se utilizarón las siguientes herramientas:
 
 El proceso de reconocimiento y comprensión de la esctructura interna de una base de datos (cuando no somos nosotros quien la creamos) es fundamental para la manipulación de la misma, resulta necesario antes de escudriñar en el mar de datos disponibles, saber como estan estructurados y como se relacionan entre si. Por ende, empezaremos por desmenuzar el diagrama entidad relación de Northwind:
 
-![DER]()
+![DER](https://github.com/Johanna-Rojas/BD_NORTHWIND/blob/main/Northwind_E-R_Diagram.png)
 
 **1.** La base de datos relacional esta compuesta por las siguientes entidades (cada una con más de 3 atributos):
 - Customers (Clientes)

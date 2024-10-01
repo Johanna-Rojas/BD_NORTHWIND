@@ -18,9 +18,9 @@ Para el desarrollo del proyecto se utilizarón las siguientes herramientas:
 
 El proceso de reconocimiento y comprensión de la esctructura interna de una base de datos (cuando no somos nosotros quien la creamos) es fundamental para la manipulación de la misma, resulta necesario antes de escudriñar en el mar de datos disponibles, saber como estan estructurados y como se relacionan entre si. Por ende, empezaremos por desmenuzar el diagrama entidad relación de Northwind:
 
-![DER](https://en.wikiversity.org/wiki/Database_Examples/Northwind#/media/File:Northwind_E-R_Diagram.png)
+![DER]()
 
-1. La base de datos relacional esta compuesta por las siguientes entidades (cada una con más de 3 atributos):
+**1.** La base de datos relacional esta compuesta por las siguientes entidades (cada una con más de 3 atributos):
 - Customers (Clientes)
 - Employees (Empleados)
 - Shippers (Transportistas)
@@ -30,9 +30,9 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 - Products (Productos)
 - Categories (Categorias)
 
-2. Las claves primarias o atributos que identifican de manera única cada registro de la entidad son sus respectivos ID (ClienteID, EmpleadoID, ProvedorID, etc.) 
+**2.** Las claves primarias o atributos que identifican de manera única cada registro de la entidad son sus respectivos ID (ClienteID, EmpleadoID, ProvedorID, etc.) 
 
-3. Las claves fóraneas o relacionales se caracterizan pos las siguientes cardinalidades, que aseguran que los datos se almacenan de manera coherente:
+**3.** Las claves fóraneas o relacionales se caracterizan pos las siguientes cardinalidades, que aseguran que los datos se almacenan de manera coherente:
 
 * Uno a muchos
    - Customers - Orders: Un cliente puede realizar muchos pedidos.
@@ -45,9 +45,9 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
    - Products - Suppliers: Muchos productos son suministrados por un solo proveedor.
    - Products - Categories: Muchos productos pertenecen a una categoría.
 
-4. La base de datos parece estar diseñada siguiendo los principios de normalización, garantizando la integridad de los datos y reduciendo la redundancia, es decir, cada campo contiene un solo valor atómico y no hay conjuntos de atributos que dependan de otros más que de su clave primaria.
+**4.** La base de datos parece estar diseñada siguiendo los principios de normalización, garantizando la integridad de los datos y reduciendo la redundancia, es decir, cada campo contiene un solo valor atómico y no hay conjuntos de atributos que dependan de otros más que de su clave primaria.
 
-En el siguiente enlace pueden encontrar muchos otros detalles de esta base de datos, como los tipos de datos, restricciones, índices, etc: [Estructura de la BD Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind)
+***En el siguiente enlace pueden encontrar muchos otros detalles de esta base de datos, como los tipos de datos, restricciones, índices, etc:*** [Estructura de la BD Northwind](https://en.wikiversity.org/wiki/Database_Examples/Northwind)
 
 ## :interrobang: Objectivos de análisis
 

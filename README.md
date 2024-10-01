@@ -1,8 +1,8 @@
-## :rocket: Introducción
+## :dart: Introducción
 
 El **objetivo** principal de este proyecto 
 
-## :gear: Tecnologías utilizadas
+## :wrench: Tecnologías utilizadas
 
 Dentro de las tecnologías utilizadas, tenemos:
 
@@ -10,13 +10,13 @@ Dentro de las tecnologías utilizadas, tenemos:
 - **DB Browser for SQLite:** Aplicación de escritorio diseñada para interactuar con SQLite. 
   
 
-## :books: Estructura de la base de datos
+## :open_file_folder: Estructura de la base de datos
 
-##  Objectivos de análisis
+## :interrobang: Objectivos de análisis
 
 
 
-## :mag_right: Consultas SQLite
+## :bookmark_tabs: Consultas SQLite
 
 ~~~
 ----------------------------------------------------------------------------------------------------
@@ -25,13 +25,13 @@ Dentro de las tecnologías utilizadas, tenemos:
 -- 
 ~~~
 
-## :bookmark_tabs: Visualización de resultados
+## :bar_chart: Visualización de resultados
 
-## :mag_right: Interpretación de los datos.
+## :chart_with_upwards_trend: Interpretación de los datos
 
 
 
-## :computer: Contribuciones
+## :incoming_envelope: Contribuciones
 
 Este proyecto genera un espacio para aprender y crecer. 
 Siéntete libre de explorar el código, hacer preguntas y proponer mejoras. 

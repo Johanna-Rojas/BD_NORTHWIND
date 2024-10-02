@@ -54,6 +54,7 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 El análisis exploratorio se realizó de forma independiente en tres áreas: ventas, clientes y proveedores, bajo los siguientes objetivos resultantes de las preguntas de investigación:
 
 **1.** Análisis de ventas:
+
        - Identificar el/los productos más vendidos
        - Descubrir patrones, tendencias o áreas de oportunidad
        - Segmentar las ventas por región
@@ -62,11 +63,13 @@ El análisis exploratorio se realizó de forma independiente en tres áreas: ven
        - Determinar el promedio de pedidos, tiempo y frecuencia
 
 **2.** Análisis de Clientes
+
        - Segmentar los clientes
        - Analizar el comportamiento de compra
        - Evaluar la tasa de retención
 
 **3.** Análisis de Proveedores
+
        - Identificar los mejores proveedores
        - Identificar oportunidades de reducción de costo
 

@@ -1,11 +1,11 @@
 ## :dart: Introducción
-<div class=text-justify>
+
 El **objetivo** general del proyecto es realizar un análisis exploratorio de la base de datos de Northwind Traders en SQLite, con el fin de identificar patrones.
 
 Northwind Traders es una organización ficticia creada por Microsoft cuya base de datos relacional simula las operaciones de un comercio electrónico de alimentos, donde se gestionan pedidos, productos, clientes, proveedores, entre otros.
 
 Su alta disponibilidad y estructura sencilla la hacen una base de datos ideal para la exploración y/o desarrollo de habilidades.
-</div>
+
 ## :wrench: Tecnologías utilizadas
 
 Para el desarrollo del proyecto se utilizarón las siguientes herramientas:

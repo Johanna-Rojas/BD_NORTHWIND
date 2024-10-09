@@ -51,18 +51,18 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 
 ## :interrobang: Objetivos de análisis
 
-El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las preguntas de investigación:
+El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las siguientes preguntas de investigación:
 
-**1.** Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo
-**2.** Segmentar las ventas y/o utilidad por región
-**3.** Identificar el/los productos estrella(s) de cada categoría
-**2.** Cuantificar el desempeño en ventas por empleado
-**3.** Segmentar los clientes
-**4.** Descubrir patrones, tendencias o áreas de oportunidad
+**1.** Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo.
+**2.** Segmentar las ventas y/o utilidad por región.
+**3.** Identificar el/los productos estrella(s) de cada categoría.
+**2.** Cuantificar el desempeño en ventas por empleado.
+**3.** Segmentar los clientes.
+**4.** Descubrir patrones, tendencias o áreas de oportunidad.
 
 ## :bookmark_tabs: Consultas SQLite
 
-A través de consultas SQL, exploramos los patrones y tendencias presentes en los datos de clientes, empleados, productos y pedidos de la base de datos de Northwind Traders. Este análisis nos arrojó valiosos insights, que permitio obtener respuestas a preguntas claves sobre el negocio, proporcionando una base sólida para la toma de decisiones más informadas.
+A través de consultas SQL, exploramos los patrones y tendencias presentes en los datos de clientes, empleados, productos y pedidos de la base de datos de Northwind Traders. Este análisis nos arrojó valiosos insights, que permitierón obtener respuestas a preguntas claves sobre el negocio, proporcionando una base sólida para la toma de decisiones más informadas.
 
 A continuación se presentan algunas de las consultas realizadas, si deseas visualizar el ***Script completo***, ir al siguiente enlace: [Consultas DB Northwind con SQLite](https://github.com/Johanna-Rojas/BD_NORTHWIND/blob/main/Queries_Norhwind.sql)
 

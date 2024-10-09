@@ -53,12 +53,12 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 
 El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las siguientes preguntas de investigación:
 
-**1.** Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo.
-**2.** Segmentar las ventas y/o utilidad por región.
-**3.** Identificar el/los productos estrella(s) de cada categoría.
-**2.** Cuantificar el desempeño en ventas por empleado.
-**3.** Segmentar los clientes.
-**4.** Descubrir patrones, tendencias o áreas de oportunidad.
+1. Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo.
+2. Segmentar las ventas y/o utilidad por región.
+3. Identificar el/los productos estrella(s) de cada categoría.
+4. Cuantificar el desempeño en ventas por empleado.
+5. Segmentar los clientes.
+6. Descubrir patrones, tendencias o áreas de oportunidad.
 
 ## :bookmark_tabs: Consultas SQLite
 

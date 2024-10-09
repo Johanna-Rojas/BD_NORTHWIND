@@ -51,13 +51,13 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 
 ## :interrobang: Objetivos de análisis
 
-El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las siguientes preguntas de investigación:
+El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las preguntas de investigación:
 
 1. Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo.
 2. Segmentar las ventas y/o utilidad por región.
 3. Identificar el/los productos estrella(s) de cada categoría.
 4. Cuantificar el desempeño en ventas por empleado.
-5. Segmentar los clientes.
+5. Clasificar los mejores clientes
 6. Descubrir patrones, tendencias o áreas de oportunidad.
 
 ## :bookmark_tabs: Consultas SQLite
@@ -139,6 +139,11 @@ ORDER BY CategoryID, Ranking
 ~~~
 
 ## :bar_chart: Visualización de resultados
+
+Ofreciendo una visión general de los datos más relevantes obtenidos através de las consultas, se desarrolló mediante la herramienta Excel el siguiente Dashboard que permite visualizar de forma dinámica los resultados, cumpliendo con los objetivos de análisis propuestos. 
+
+[Dashboard]()
+
 
 ## :chart_with_upwards_trend: Interpretación de los datos
 

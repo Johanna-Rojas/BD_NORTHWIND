@@ -51,35 +51,91 @@ El proceso de reconocimiento y comprensión de la esctructura interna de una bas
 
 ## :interrobang: Objetivos de análisis
 
-El análisis exploratorio se realizó de forma independiente en tres áreas: ventas, clientes y proveedores, bajo los siguientes objetivos resultantes de las preguntas de investigación:
+El análisis exploratorio se realizó teniendo en cuenta los siguientes objetivos obtenidos a partir de las preguntas de investigación:
 
-**1.** Análisis de ventas:
-
-       - Identificar el/los productos estrella(s)
-       - Descubrir patrones, tendencias o áreas de oportunidad
-       - Segmentar las ventas por región
-       - Cuantificar el desempeño en ventas por empleado
-       - Analizar la tendencia de ventas a lo largo del tiempo
-       - Determinar el promedio de pedidos, tiempo y frecuencia
-
-**2.** Análisis de Clientes
-
-       - Segmentar los clientes
-       - Analizar el comportamiento de compra
-       - Evaluar la tasa de retención
-
-**3.** Análisis de Proveedores
-
-       - Identificar los mejores proveedores
-       - Identificar oportunidades de reducción de costo
+**1.** Analizar la tendencia de ventas y utilidad bruta a lo largo del tiempo
+**2.** Segmentar las ventas y/o utilidad por región
+**3.** Identificar el/los productos estrella(s) de cada categoría
+**2.** Cuantificar el desempeño en ventas por empleado
+**3.** Segmentar los clientes
+**4.** Descubrir patrones, tendencias o áreas de oportunidad
 
 ## :bookmark_tabs: Consultas SQLite
 
+A través de consultas SQL, exploramos los patrones y tendencias presentes en los datos de clientes, empleados, productos y pedidos de la base de datos de Northwind Traders. Este análisis nos arrojó valiosos insights, que permitio obtener respuestas a preguntas claves sobre el negocio, proporcionando una base sólida para la toma de decisiones más informadas.
+
+A continuación se presentan algunas de las consultas realizadas, si deseas visualizar el ***Script completo***, ir al siguiente enlace: [Consultas DB Northwind con SQLite](https://github.com/Johanna-Rojas/BD_NORTHWIND/blob/main/Queries_Norhwind.sql)
+
 ~~~
 ----------------------------------------------------------------------------------------------------
--- 
+-- Vista de los datos más importantes de 7 de las tablas
 ----------------------------------------------------------------------------------------------------
--- 
+CREATE VIEW ImportantDate AS
+SELECT od.OrderID, o.OrderDate, 
+	   c.CategoryName, 
+	   ProductName, 
+	   sup.SupplierName, sup.CitySuppl, sup.CountrySuppl,
+	   CONCAT(FirstName,' ',LastName) AS EmployeeName,
+	   cus.CustomerName, cus.City, cus.Country,
+	   od.Quantity, p.Price, od.Quantity * p.Price AS TotalGrossProfit
+FROM 
+	   OrderDetails od
+LEFT JOIN Orders o 
+	   ON od.OrderID = o.OrderID
+INNER JOIN Employees e 
+	   ON o.EmployeeID = e.EmployeeID
+INNER JOIN Products p 
+	   ON od.ProductID = p.ProductID
+INNER JOIN Categories c 
+	   ON p.CategoryID = c.CategoryID
+INNER JOIN Customers cus 
+	   ON o.CustomerID = cus.CustomerID
+INNER JOIN Suppliers sup 
+	   ON p.SupplierID = sup.SupplierID
+
+----------------------------------------------------------------------------------------------------
+-- Consultas individuales
+----------------------------------------------------------------------------------------------------
+-- Segmentación de Ventas por Categoría
+SELECT cs.CategoryID, c.CategoryName,
+	   sum(QuantitySold) AS QuantityCategory, 
+	   sum(GrossProfit) AS GrossProfitCategory
+FROM CommercialStatus cs
+INNER JOIN Categories c ON cs.CategoryID = c.CategoryID
+GROUP BY cs.CategoryID
+ORDER BY GrossProfitCategory DESC
+
+-- Utilidad Mensual
+SELECT COUNT(OrderID) AS QuantityOrders, 
+	   strftime('%Y-%m', OrderDate) AS YearsMonth,
+	   sum(Utility) AS UtilityMonth
+FROM UtilityOrders
+GROUP BY YearsMonth
+
+-- Top 5 de los mejores clientes por categoría
+WITH CustomersCategory AS (
+	SELECT 
+		p.CategoryID, o.CustomerID, 
+	    c.CustomerName,
+	    sum(od.Quantity) AS TotalQuantity,
+	    sum(od.Quantity * Price) AS GrossProfitCust
+	FROM 
+		Orders o
+	INNER JOIN OrderDetails od ON o.OrderID = od.OrderID
+	INNER JOIN Products p 	ON od.ProductID = p.ProductID
+	INNER JOIN Customers c ON o.CustomerID = c.CustomerID
+	GROUP BY 
+		p.CategoryID, o.CustomerID
+)
+SELECT *,
+	(SELECT count(*)
+	FROM CustomersCategory cc2
+	WHERE cc2.CategoryID = cc.CategoryID
+	  and cc2.GrossProfitCust >= cc.GrossProfitCust) AS Ranking
+FROM
+	CustomersCategory cc
+WHERE Ranking <=5
+ORDER BY CategoryID, Ranking
 ~~~
 
 ## :bar_chart: Visualización de resultados

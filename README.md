@@ -55,7 +55,7 @@ El análisis exploratorio se realizó de forma independiente en tres áreas: ven
 
 **1.** Análisis de ventas:
 
-       - Identificar el/los productos más vendidos
+       - Identificar el/los productos estrella(s)
        - Descubrir patrones, tendencias o áreas de oportunidad
        - Segmentar las ventas por región
        - Cuantificar el desempeño en ventas por empleado

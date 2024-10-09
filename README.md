@@ -140,9 +140,9 @@ ORDER BY CategoryID, Ranking
 
 ## :bar_chart: Visualización de resultados
 
-Ofreciendo una visión general de los datos más relevantes obtenidos através de las consultas, se desarrolló mediante la herramienta Excel el siguiente Dashboard que permite visualizar de forma dinámica los resultados, cumpliendo con los objetivos de análisis propuestos. 
+Ofreciendo una visión general de los datos más relevantes obtenidos através de las consultas, se desarrolló mediante la herramienta Excel el siguiente Dashboard ([Dashboard Interactivo](https://vimeo.com/1018096795)) que permite visualizar de forma dinámica los resultados, cumpliendo con los objetivos de análisis propuestos. 
 
-[Dashboard]()
+[Dashboard](https://github.com/Johanna-Rojas/BD_NORTHWIND/blob/main/Dashboard_Analisis_Northwind.png)
 
 
 ## :chart_with_upwards_trend: Interpretación de los datos

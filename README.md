@@ -150,60 +150,55 @@ El Dashboard proporciona una visión general de los datos de ventas y utilidades
 
 **1.** Tendencia en ventas e ingresos:
 
-       - Se observa una tendencia creciente en las ventas totales a lo largo del período, con un crecimiento del 7.37%.
-	   - El descenso significativo en el mes de febrero de 1997, puede ser debido a que no se reportó toda la data de ese mes.
-       - Se evidencian algunas flutuaciones estacionales, con picos y valles en ciertos meses del año, posiblemente factores como las festividades, estaciones climaticas o campañas de marketing pueden estar influyendo.
-       - Los ingresos siguen una tendencia similar a las ventas, de Julio a Enero se experimento un aumento del 11.8%.
+- Se observa una tendencia creciente en las ventas totales a lo largo del período, con un crecimiento del 7.37%.
+- El descenso significativo en el mes de febrero de 1997, puede ser debido a que no se reportó toda la data de ese mes.
+- Se evidencian algunas flutuaciones estacionales, con picos y valles en ciertos meses del año, posiblemente factores como las festividades, estaciones climaticas o campañas de marketing pueden estar influyendo.
+- Los ingresos siguen una tendencia similar a las ventas, de Julio a Enero se experimento un aumento del 11.8%.
 
 **2.** Distribución geográfica:
 
-       - La mayor parte de los ingresos por ventas se concentran en USA (aprox. 18%), seguido por Austria y Alemania, lo que nos indica la alta presencia en estos mercados y el potencial de crecimiento en otras regiones como Brasil que cuenta con el 10.41% del mercado, Canada y Francia.
+- La mayor parte de los ingresos por ventas se concentran en USA (aprox. 18%), seguido por Austria y Alemania, lo que nos indica la alta presencia en estos mercados y el potencial de crecimiento en otras regiones como Brasil que cuenta con el 10.41% del mercado, Canada y Francia.
 
 **3.** Comportamiento por categoría y producto:
 
-       - Se indica una fuerte demanda de los productos de las categorías "Beverages" (17.96%), "Dairy Products" (20.41%), "Confections" (16.56%), respectivamente el aporte en ingresos es del 25.74%, 18.09%, 14.21%. 
-	   - De esas tres categorías, productos específicos como el "Cote de Blaye", "Raclette Courdavault", "Camembert Pierrot", "Tarte au sucre", son los que más destacan por el ingreso generado, con porcentajes mayores al 20% en cada una de sus categorías respectivas.
-	   - Pero definitivamente el producto estrella es "Cote de Blaye" que genera el mayor porcentaje de ingresos (16.30%) de los 77 productos ofrecidos.
-	   - Se debe fijar la atención en productos que tienen un porcentaje de ventas muy por encima de los ingresos generados, ya que esto esta provocando un esfuerzo en ventas con una retribucción baja.
-       - Cabe mencionar que las categorías Produce, Grains/Cereals que manejan doce de los productos, han tenido un muy bajo rendimiento, estan aportando aproximadamente solo el 6% de los ingresos y ventas, podrían requerir ajustes, campañas promocionales, etc.
-	   - El análisis ABC revela que que 61% de los productos le estan generando a la empresa solo un 20% de ingresos y que el mayor beneficio (80%) lo aportan las ventas solo del 39% de los productos (30/77), lo que sugiere una oportunidad para optimizar el inventario y enfocarse en los productos más rentables.
+- Se indica una fuerte demanda de los productos de las categorías "Beverages" (17.96%), "Dairy Products" (20.41%), "Confections" (16.56%), respectivamente el aporte en ingresos es del 25.74%, 18.09%, 14.21%. 
+- De esas tres categorías, productos específicos como el "Cote de Blaye", "Raclette Courdavault", "Camembert Pierrot", "Tarte au sucre", son los que más destacan por el ingreso generado, con porcentajes mayores al 20% en cada una de sus categorías respectivas.
+- Pero definitivamente el producto estrella es "Cote de Blaye" que genera el mayor porcentaje de ingresos (16.30%) de los 77 productos ofrecidos.
+- Se debe fijar la atención en productos que tienen un porcentaje de ventas muy por encima de los ingresos generados, ya que esto esta provocando un esfuerzo en ventas con una retribucción baja.
+- Cabe mencionar que las categorías Produce, Grains/Cereals que manejan doce de los productos, han tenido un muy bajo rendimiento, estan aportando aproximadamente solo el 6% de los ingresos y ventas, podrían requerir ajustes, campañas promocionales, etc.
+- El análisis ABC revela que que 61% de los productos le estan generando a la empresa solo un 20% de ingresos y que el mayor beneficio (80%) lo aportan las ventas solo del 39% de los productos (30/77), lo que sugiere una oportunidad para optimizar el inventario y enfocarse en los productos más rentables.
 
 **4.** Desempeño de empleados:
 
-	   - "Margaret Peacock" es quien lleva la batuta en ventas, contribuyendo en un 27% a los ingresos totales.
-	   - Se debe evaluar afondo el desempeño de "Andrew Fuller", "Steven Buchanan", "Michael Suyama" y "Anne Dodsworth" que muestran porcentajes de ventas y aportes en ingresos muy por debajo del 10%.
+- "Margaret Peacock" es quien lleva la batuta en ventas, contribuyendo en un 27% a los ingresos totales.
+- Se debe evaluar afondo el desempeño de "Andrew Fuller", "Steven Buchanan", "Michael Suyama" y "Anne Dodsworth" que muestran porcentajes de ventas y aportes en ingresos muy por debajo del 10%.
 
-	   Evaluando las tres categorías más rentables: 
+Evaluando las tres categorías más rentables: 
 
-	   - "Margaret Peacock" es quien sobresale por la cantidad de productos vendidos en las 3 categorías (del 20% al 30%), con un porcentaje muy similar al de los ingresos recibidos.
-	   - En la categoría "Beverages" se distingue "Robert King" por la cantidad de ingresos que logro generar a la empresa (aproximadamente un 29% de la categoría) respecto a las pocos productos vendidos (aprox. 11%). En las otras categorías muestra un bajo desempeño.
-	   - En las categorías "Dairy Products" y "Confections" resalta "Nancy Davolio" por su aporte en ventas e ingresos por encima del 15%.
+- "Margaret Peacock" es quien sobresale por la cantidad de productos vendidos en las 3 categorías (del 20% al 30%), con un porcentaje muy similar al de los ingresos recibidos.
+- En la categoría "Beverages" se distingue "Robert King" por la cantidad de ingresos que logro generar a la empresa (aproximadamente un 29% de la categoría) respecto a las pocos productos vendidos (aprox. 11%). En las otras categorías muestra un bajo desempeño.
+- En las categorías "Dairy Products" y "Confections" resalta "Nancy Davolio" por su aporte en ventas e ingresos por encima del 15%.
 	   
 **5.** Clientes Clave:
 
-	   - Un pequeño número de clientes, 25 de 74 (34%), generan una proporción significativa de las ventas e ingresos totales (aprox. 80%), esto sugiere una dependencia con muy pocos clientes clave.
-	   - En general, los clientes que le suponen a la empresa un mayor beneficio son: "Ernst Handel", "Mère Paillarde" y "Save-a-lot Markets".
-	   - Y quienes estan apartando menos a los ingresos son: "Franchi S.p.A", "Ana Trujillo Emparedados y helados" y "Centro comercial Moctezuma".
+- Un pequeño número de clientes, 25 de 74 (34%), generan una proporción significativa de las ventas e ingresos totales (aprox. 80%), esto sugiere una dependencia con muy pocos clientes clave.
+- En general, los clientes que le suponen a la empresa un mayor beneficio son: "Ernst Handel", "Mère Paillarde" y "Save-a-lot Markets".
+- Y quienes estan apartando menos a los ingresos son: "Franchi S.p.A", "Ana Trujillo Emparedados y helados" y "Centro comercial Moctezuma".
 
-	   Evaluando las tres categorías más rentables:
+Evaluando las tres categorías más rentables:
 
-       - En la categoría "Beverages" sobresalen con un aporte mayor al 20% del total de la categoría, "Mère Paillarde", "Simons bistro" y "Piccolo und mehr".
-	   - Respecto a la categoría "Dairy Products" destacan clientes como "Frankenversand" y "Ernst Handel" con un aporte del 28% y 24% respectivamente.
-	   - Y en la categoría "Confections" resalta "Rattlesnake Canyon Grocery" con un aporte casi del 30% de los ingresos persividos en esa categoría.
+- En la categoría "Beverages" sobresalen con un aporte mayor al 20% del total de la categoría, "Mère Paillarde", "Simons bistro" y "Piccolo und mehr".
+- Respecto a la categoría "Dairy Products" destacan clientes como "Frankenversand" y "Ernst Handel" con un aporte del 28% y 24% respectivamente.
+- Y en la categoría "Confections" resalta "Rattlesnake Canyon Grocery" con un aporte casi del 30% de los ingresos persividos en esa categoría.
 
 ## :thought_balloon: Concluciones y recomendaciones
 
-	- Fortalecer las categorías de mayor venta: Dado que "Beverages", "Dairy Products" y "Confections" son las categorías más populares, la empresa podría considerar expandir su oferta de productos en estas líneas o lanzar promociones especiales.
-
-	- Analizar la estacionalidad: Identificar los factores que influyen en las fluctuaciones estacionales y desarrollar estrategias para aprovechar las temporadas altas y mitigar los efectos de las temporadas bajas.
-
-	- Optimizar la fuerza de ventas: Utilizar los datos de ventas por empleado para identificar áreas de mejora y proporcionar capacitación adicional a los empleados que lo necesiten.
-
-	- Fomentar la lealtad de los clientes clave: Implementar programas de fidelización para retener a los clientes más importantes y estimular compras repetidas.
-
-	- Expansión geográfica: Considerar la posibilidad de expandir las operaciones a nuevas regiones para diversificar los ingresos y reducir la dependencia de un solo mercado.
-
-	- Análisis de la competencia: Realizar un análisis comparativo con los competidores para identificar oportunidades y amenazas en el mercado.
+- Fortalecer las categorías de mayor venta: Dado que "Beverages", "Dairy Products" y "Confections" son las categorías más populares, la empresa podría considerar expandir su oferta de productos en estas líneas o lanzar promociones especiales.
+- Analizar la estacionalidad: Identificar los factores que influyen en las fluctuaciones estacionales y desarrollar estrategias para aprovechar las temporadas altas y mitigar los efectos de las temporadas bajas.
+- Optimizar la fuerza de ventas: Utilizar los datos de ventas por empleado para identificar áreas de mejora y proporcionar capacitación adicional a los empleados que lo necesiten.
+- Fomentar la lealtad de los clientes clave: Implementar programas de fidelización para retener a los clientes más importantes y estimular compras repetidas.
+- Expansión geográfica: Considerar la posibilidad de expandir las operaciones a nuevas regiones para diversificar los ingresos y reducir la dependencia de un solo mercado.
+- Análisis de la competencia: Realizar un análisis comparativo con los competidores para identificar oportunidades y amenazas en el mercado.
 
 ## :pencil: Contribuciones
 
